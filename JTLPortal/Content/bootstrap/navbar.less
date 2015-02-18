@@ -11,14 +11,14 @@
 .navbar {
   position: relative;
   min-height: @navbar-height; // Ensure a navbar always shows (e.g., without a .navbar-brand in collapsed mode)
-  margin-bottom: @navbar-margin-bottom;
+  //margin-bottom: @navbar-margin-bottom;
   border: 1px solid transparent;
 
   // Prevent floats from breaking the navbar
   .clearfix();
 
   @media (min-width: @grid-float-breakpoint) {
-    border-radius: @navbar-border-radius;
+    //border-radius: @navbar-border-radius;
   }
 }
 
@@ -608,5 +608,14 @@
       color: @navbar-inverse-link-hover-color;
     }
   }
-
 }
+
+  .imageBar {
+      background-image: url(../Images/bg1.png);
+      background-repeat: no-repeat;
+      background-color: #cccccc;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 200px;
+  }

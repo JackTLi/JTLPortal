@@ -39,7 +39,7 @@ namespace App.JTLPortal
             ////   appId: "",
             ////   appSecret: "");
 
-            ////app.UseGoogleAuthentication();
+            //app.UseGoogleAuthentication();
         }
     }
 }

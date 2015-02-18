@@ -7,7 +7,7 @@ angular.module('app.controllers', [])
 
     // Path: /
     .controller('HomeCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
-        $scope.$root.title = 'AngularJS SPA Template for Visual Studio';
+        $scope.$root.title = 'Jack T Li';
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
         });
@@ -15,7 +15,7 @@ angular.module('app.controllers', [])
 
     // Path: /about
     .controller('AboutCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
-        $scope.$root.title = 'AngularJS SPA | About';
+        $scope.$root.title = 'Jack T Li | About';
         $scope.$on('$viewContentLoaded', function () {
             $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
         });
@@ -23,7 +23,7 @@ angular.module('app.controllers', [])
 
     // Path: /login
     .controller('LoginCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
-        $scope.$root.title = 'AngularJS SPA | Sign In';
+        $scope.$root.title = 'Jack T Li | Sign In';
         // TODO: Authorize a user
         $scope.login = function () {
             $location.path('/');

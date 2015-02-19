@@ -22,6 +22,11 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 templateUrl: '/views/about',
                 controller: 'AboutCtrl'
             })
+            .state('resume', {
+                url: '/resume',
+                templateUrl: '/views/resume',
+                controller: 'ResumeCtrl'
+            })
             .state('login', {
                 url: '/login',
                 layout: 'basic',

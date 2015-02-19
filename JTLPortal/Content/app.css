@@ -3702,7 +3702,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  padding: 16.5px 15px;
+  background-image: url(/Images/Logo.png);
+  background-image: url(Images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 50px;
+  height: 50px;
   font-size: 13px;
   line-height: 17px;
 }
@@ -3919,6 +3924,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-nav > .active > a:focus {
   color: #555555;
   background-color: #e7e7e7;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #fff;
 }
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
@@ -4064,7 +4072,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .imageBar {
-  background-image: url(../Images/bg1.png);
+  background-image: url(/Images/bg1.png);
+  background-image: url(Images/bg1.png);
   background-repeat: no-repeat;
   background-color: #cccccc;
   background-size: cover;

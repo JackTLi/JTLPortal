@@ -9,11 +9,7 @@
     @Styles.Render("~/content/css/app")
 </head>
 <body>
-    <!--[if lt IE 9]>
-        <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <header class="navbar navbar-inverse" role="banner" ng-if=" !layout ">@* The 'layout' property is set inside the app.run(..) method on '$stateChangeSuccess' *@
+    <header class="navbar navbar-inverse" role="banner" ng-if=" !layout ">
         <div class="container">
             <div class="navbar-header">
                 <button class="navbar-toggle" type="button" data-toggle="collapse" data-target=".spa-navbar-collapse">
@@ -22,7 +18,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="./" class="navbar-brand">JTL</a>
+                <a href="./" class="navbar-brand"></a>
             </div>
             <nav class="collapse navbar-collapse spa-navbar-collapse" role="navigation">
                 <ul class="nav navbar-nav">
@@ -30,14 +26,18 @@
                         <a href="./about">About</a>
                     </li>
                     <li>
-                        <a href="./contacts">Contacts</a>
+                        <a href="./resume">Resume</a>
+                    </li>
+                    <li>
+                        <a href="./contacts">Contact</a>
                     </li>
                 </ul>
+                <!--
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="./login">Sign In</a>
                     </li>
-                </ul>
+                </ul> -->
             </nav>
         </div>
     </header>

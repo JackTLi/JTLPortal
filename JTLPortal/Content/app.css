@@ -698,6 +698,7 @@ pre code {
   }
 }
 .footer {
+  text-align: center;
   color: #bfbfbf;
   margin-top: -10px;
 }

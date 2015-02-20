@@ -697,6 +697,10 @@ pre code {
     width: 1170px;
   }
 }
+.footer {
+  color: #bfbfbf;
+  margin-top: -10px;
+}
 .row {
   margin-left: -15px;
   margin-right: -15px;

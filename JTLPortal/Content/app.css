@@ -4070,6 +4070,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar-inverse .navbar-link:hover {
   color: #ffffff;
 }
+.navbar-inverse .linkedin {
+  background-image: url(../Images/linkedin.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 100%;
+  height: 50px;
+}
 .imageBar {
   background-image: url(../Images/bg1.png);
   background-repeat: no-repeat;

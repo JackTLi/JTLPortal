@@ -3707,7 +3707,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 .navbar-brand {
   float: left;
-  background-image: url(../Images/logo.png);
+  background-image: url(/Images/logo.png);
   background-repeat: no-repeat;
   background-size: auto;
   width: 50px;
@@ -4076,7 +4076,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   color: #ffffff;
 }
 .navbar-inverse .linkedin {
-  background-image: url(../Images/linkedin.png);
+  background-image: url(/Images/linkedin.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -4084,7 +4084,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   height: 50px;
 }
 .imageBar {
-  background-image: url(../Images/bg1.png);
+  background-image: url(/Images/bg1.png);
   background-repeat: no-repeat;
   background-color: #cccccc;
   background-size: cover;

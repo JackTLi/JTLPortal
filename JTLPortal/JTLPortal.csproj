@@ -126,9 +126,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Content\Images\linkedin.png" />
-    <Content Include="Content\Images\logo.png" />
-    <Content Include="Content\Images\portrait.jpg" />
+    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\portrait.jpg" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Content\app.css">
@@ -137,7 +137,7 @@
     <Content Include="Content\app.less" />
     <Content Include="Content\variables.less" />
     <Content Include="Global.asax" />
-    <Content Include="Content\Images\bg1.png" />
+    <Content Include="Images\bg1.png" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\controllers.spec.js">
       <DependentUpon>controllers.js</DependentUpon>
@@ -500,6 +500,7 @@
     <Content Include="Views\_PageStart.cshtml" />
     <Content Include="Views\About.cshtml" />
     <Content Include="Views\Resume.cshtml" />
+    <Content Include="Views\Contact.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

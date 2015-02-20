@@ -128,6 +128,7 @@
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Content\Images\linkedin.png" />
     <Content Include="Content\Images\logo.png" />
+    <Content Include="Content\Images\portrait.jpg" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
     <Content Include="Content\app.css">

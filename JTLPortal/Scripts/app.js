@@ -34,6 +34,11 @@ angular.module('app', ['ui.router', 'app.filters', 'app.services', 'app.directiv
                 templateUrl: '/views/contact',
                 controller: 'ContactCtrl'
             })
+            .state('Projects', {
+                url: '/projects',
+                templateUrl: '/views/projects',
+                controller: 'ProjectsCtrl'
+            })
             .state('login', {
                 url: '/login',
                 layout: 'basic',

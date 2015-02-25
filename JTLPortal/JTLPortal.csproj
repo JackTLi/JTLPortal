@@ -126,8 +126,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Images\linkedin.png" />
     <Content Include="Images\logo.png" />
+    <Content Include="Images\mkmtx1.jpg" />
+    <Content Include="Images\mkmtx2.jpg" />
+    <Content Include="Images\mkmtx3.jpg" />
+    <Content Include="Images\mkmtx4.jpg" />
+    <Content Include="Images\mkmtx5.jpg" />
     <Content Include="Images\portrait.jpg" />
     <Content Include="Content\jasmine\jasmine.css" />
     <Content Include="Content\jasmine\jasmine_favicon.png" />
@@ -138,6 +144,8 @@
     <Content Include="Content\variables.less" />
     <Content Include="Global.asax" />
     <Content Include="Images\bg1.png" />
+    <Content Include="Images\quadris1.jpg" />
+    <Content Include="Images\quadris2.jpg" />
     <Content Include="Scripts\controllers.js" />
     <Content Include="Scripts\controllers.spec.js">
       <DependentUpon>controllers.js</DependentUpon>
@@ -475,6 +483,9 @@
     <Content Include="Content\bootstrap\bootstrap.less" />
     <Content Include="Content\bootstrap\badges.less" />
     <Content Include="Content\bootstrap\alerts.less" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <None Include="Scripts\vendor\jquery-2.0.3.intellisense.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.js" />
     <Content Include="Scripts\vendor\jquery-2.0.3.min.js" />
@@ -501,6 +512,7 @@
     <Content Include="Views\About.cshtml" />
     <Content Include="Views\Resume.cshtml" />
     <Content Include="Views\Contact.cshtml" />
+    <Content Include="Views\Projects.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

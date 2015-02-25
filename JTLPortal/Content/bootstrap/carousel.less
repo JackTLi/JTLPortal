@@ -6,6 +6,7 @@
 // Wrapper for the slide container and indicators
 .carousel {
   position: relative;
+  height: 350px;
 }
 
 .carousel-inner {
@@ -72,27 +73,27 @@
   width: @carousel-control-width;
   .opacity(@carousel-control-opacity);
   font-size: @carousel-control-font-size;
-  color: @carousel-control-color;
+  color: rgba(0,0,0,.5);
   text-align: center;
-  text-shadow: @carousel-text-shadow;
+  //text-shadow: @carousel-text-shadow;
   // We can't have this transition here because WebKit cancels the carousel
   // animation if you trip this while in the middle of another animation.
 
   // Set gradients for backgrounds
   &.left {
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
+    //#gradient > .horizontal(@start-color: rgba(0,0,0,.5); @end-color: rgba(0,0,0,.0001));
   }
   &.right {
     left: auto;
     right: 0;
-    #gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
+    //#gradient > .horizontal(@start-color: rgba(0,0,0,.0001); @end-color: rgba(0,0,0,.5));
   }
 
   // Hover/focus state
   &:hover,
   &:focus {
     outline: none;
-    color: @carousel-control-color;
+    color: #856b53;
     text-decoration: none;
     .opacity(.9);
   }
@@ -158,7 +159,7 @@
     height: 10px;
     margin: 1px;
     text-indent: -999px;
-    border: 1px solid @carousel-indicator-border-color;
+    border: 1px solid rgba(0,0,0,.5);
     border-radius: 10px;
     cursor: pointer;
 
@@ -177,7 +178,7 @@
     margin: 0;
     width:  12px;
     height: 12px;
-    background-color: @carousel-indicator-active-bg;
+    background-color: #A1A1A1;
   }
 }
 

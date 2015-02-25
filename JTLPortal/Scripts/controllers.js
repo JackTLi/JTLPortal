@@ -60,6 +60,19 @@ angular.module('app.controllers', [])
         });
     }])
 
+    // Path: /projects
+    .controller('ProjectsCtrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
+        $scope.$root.title = 'Jack T Li | Projects';
+        // TODO: Authorize a user
+        $scope.login = function () {
+            $location.path('/');
+            return false;
+        };
+        $scope.$on('$viewContentLoaded', function () {
+            $window.ga('send', 'pageview', { 'page': $location.path(), 'title': $scope.$root.title });
+        });
+    }])
+
 
     // Path: /error/404
     .controller('Error404Ctrl', ['$scope', '$location', '$window', function ($scope, $location, $window) {
